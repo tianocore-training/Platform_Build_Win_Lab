@@ -40,13 +40,13 @@ Note:
 
 ---  
 @title[Lesson Objective]
-<BR>
+
 ### <p align="center"<span class="gold"   >Platform Build Labs </span></p>
 <span style="font-size:0.9em">Lab Setup and Build for Nt32 or Minnowboard Max/Turbot</span> <br>
 <br>
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
- @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows Task Bar  </span><br><br>
+ @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar  </span><br><br>
  @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/2'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
  @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/18'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/26'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
@@ -57,7 +57,7 @@ Note:
 @title[Pin VS CMD Prompt Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pin VS Command Prompt </span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pin the Visual Studio Command prompt to Windows Task Bar</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pin the Visual Studio Command prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar</span>
 
 
 ---?image=/assets/images/slides/Slide4.JPG
@@ -112,7 +112,7 @@ Note:
 @title[Lab 1 -Build OVMF Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab 1: Build Nt32Pkg</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup Nt32Pkg to build and run NT32 emulation w/ Windows</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup Nt32Pkg to build and run NT32 emulation <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w/ Windows</span>
 
 
 
@@ -185,7 +185,7 @@ Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory
 ---?image=/assets/images/slides/Slide15.JPG
 @title[Build Nt32 Edk2 -getting the Source 02]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
-<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Getting the Source</font></span></p>
+<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Copy`edk2`</font></span></p>
 
 
 Note:
@@ -213,8 +213,10 @@ Note:
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Update Target.txt</font></span></p>
 
 Note:
-
+- `$ Cd C:/fw/edk2`
+- invoke `$ edksetup.bat`
 - change MYTOOLS to VS2013x86
+- `$ Build -D BUILD_NEW_SHELL`
 
 
 ---?image=/assets/images/slides/Slide19.JPG
@@ -226,7 +228,7 @@ Note:
 - 
 
 
----?image=/assets/images/slides/Slide29.JPG
+---?image=/assets/images/slides/Slide20.JPG
 @title[Build Nt32 Edk2 -invoke Nt32]
 ### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span><br></span></p>
 
@@ -269,14 +271,14 @@ Note:
 ---?image=/assets/images/slides/Slide25.JPG
 @title[Instructions for Lab Materials]
 ### <p align="right"><span class="gold" >Instructions for Lab Materials</span></p>
-<div class="left1">Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` </span>
-<div class="left1">
+<span style="font-size:0.9em">Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` </span>
+<div class="left">
  <ul style="list-style-type:none">
-   <li><span style="font-size:0.8em">FTDI Driver for Serial UART Cable (COM Port)  <a href="http://www.ftdichip.com/FTDrivers.htm "> http://www.ftdichip.com/FTDrivers.htm </a></span> </li>
-   <li><span style="font-size:0.8em">TeraTerm (terminal software for COM Port)  <a href="https://en.osdn.jp/projects/ttssh2/releases/"> https://en.osdn.jp/projects/ttssh2/releases/</a></span> </li>
+   <li><span style="font-size:0.8em">FTDI Driver for Serial UART Cable (COM Port)  <a href="http://www.ftdichip.com/FTDrivers.htm "> ftdichip.com/FTDrivers.htm </a></span> </li>
+   <li><span style="font-size:0.8em">TeraTerm (terminal software for COM Port)  <a href="https://en.osdn.jp/projects/ttssh2/releases/"> ttssh2/releases/</a></span> </li>
  </ul>
 </div>
-<div class="right1">
+<div class="right">
 <div class="left1"> &nbsp;</span>
 </div>
 Note:
@@ -426,6 +428,10 @@ $ git clone https://github.com/Laurie0131/PlatformBuildLab_FW.git
 
 
 Note:
+- NASM
+  -   `Copy …Lab_Material_FW\FW\Nasm to C:\`
+
+
 
 
 ---?image=/assets/images/slides/Slide37.JPG
@@ -434,7 +440,10 @@ Note:
 
 
 Note:
-
+<pre>
+Copy \Nasm Folder to C:\
+Copy \asl Folder to C:\
+</pre>
 
 ---?image=/assets/images/slides/Slide38.JPG
 @title[Get the Minnowboard Max Source]
@@ -471,7 +480,7 @@ Note:
 </ol>
 <br>
 <br>
-<span style="font-size:0.7em"><font color="yellow"><i>Next slides will follow the above steps</i></font></span>
+<span style="font-size:0.8em"><font color="yellow"><i>Next slides will follow the above steps</i></font></span>
 
 
 Note:
@@ -481,7 +490,7 @@ Slide says it all
 ---?image=/assets/images/slides/Slide41.JPG
 @title[Open a VS Command Prompt]
 ### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
-<span style="font-size:0.9em">Follow Steps from <a href="">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
+<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
 
 
 Note:
@@ -767,7 +776,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide67.JPG
 @title[Visual Studio Resource Compiler Error – Rc.exe]
-### <p align="right"><span class="gold" >Visual Studio Resource Compiler Error – Rc.exe</span></p>
+<p align="right"><span class="gold" >Visual Studio Resource Compiler Error – Rc.exe</span></p>
  
 Note:
 - The Rc.exe was not found and the build fails
