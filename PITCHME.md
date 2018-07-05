@@ -158,8 +158,7 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the Lab_Material_FW<span>
 ```
-bash$ cd $HOME
-bash$ git clone https://github.com/Laurie0131/Lab_Material_FW.git
+$ git clone https://github.com/Laurie0131/Lab_Material_FW.git
 ```
 <span style="font-size:0.9em" >Directory Lab_Material_FW will be created</span>
 ```
@@ -185,7 +184,7 @@ Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory
 ---?image=/assets/images/slides/Slide15.JPG
 @title[Build Nt32 Edk2 -getting the Source 02]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
-<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Copy`edk2`</font></span></p>
+<p align="right"><span style="font-size:0.8em" ><font color="#e49436">– Copy `edk2`</font></span></p>
 
 
 Note:
