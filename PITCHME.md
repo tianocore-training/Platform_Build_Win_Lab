@@ -103,7 +103,7 @@ Note:
 ---?image=assets/images/binary-strings-black2.jpg
 @title[End of Pin VS Section]
 <br><br><br><br><br>
-## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Pin  VS Command Prompt</span>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Pin  VS Prompt</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 
@@ -221,14 +221,14 @@ Note:
 ---
 @title[Possible Build Errors]
 ### <p align="right"><span class="gold" >Possible Build Errors</span><br></span></p>
-<p style="line-height:80%"><span style="font-size:0.9em" >1. If you get a BUILD Error:  Error “`C:/Program `“ not found</span></p>
+<p style="line-height:80%"><span style="font-size:0.8em" >1. If you get a BUILD Error:  Error “`C:/Program `“ not found</span></p>
 <ul style="line-height:0.8;">
-  <li><span style="font-size:0.8em" >First check that you have opened Visual Studio and installed the “C++”   </span> </li>
-  <li><span style="font-size:0.8em" >Open Visual Studio and create a “C++” project </span> </li>
-  <li><span style="font-size:0.8em" > (This will take some time to install)</span> </li>
+  <li><span style="font-size:0.7em" >First check that you have opened Visual Studio and installed the “C++”   </span> </li>
+  <li><span style="font-size:0.7em" >Open Visual Studio and create a “C++” project </span> </li>
+  <li><span style="font-size:0.7em" > (This will take some time to install)</span> </li>
 </ul>  
-<p style="line-height:80%"><span style="font-size:0.9em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre=""> here</a> </span> </p>
-<p style="line-height:80%"><span style="font-size:0.9em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre=""> here</a>  </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre=""> here</a> </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre=""> here</a>  </span> </p>
 
 
 Note:
@@ -787,16 +787,23 @@ Copyright (c) 2018, Intel Corporation. All rights reserved.
 ---
 @title[Build Error- RC.exe ]
 <p align="right"><span class="gold" ><b>Build Error- RC.exe </b></span></p>
-<span style="font-size:0.9em" >Error Message:</span>
+<span style="font-size:0.9em" >Because RC.Exe is not found, Error Message:</span>
+
 
 ```
-	"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" /Foc:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\HelloWorldhii.lib c:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\HelloWorldhii.rc
+	"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" 
+/Foc:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT
+\HelloWorldhii.lib 
+c:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\He
+lloWorldhii.rc
 'c:\Program' is not recognized as an internal or external command,
 operable program or batch file.
  
 NMAKE : fatal error U1077: '"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe' : return code '0x1'
 Stop.
+
 ```
+
 <p style="line-height:90%"><span style="font-size:0.9em" >Find where the RC.EXE is located on your VS Installation:  </span></p>
 
 <p style="line-height:90%"><span style="font-size:0.9em" >Example (VS 2013):  The RC.exe is located on this machine: <br>
