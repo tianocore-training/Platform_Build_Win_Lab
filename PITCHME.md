@@ -101,9 +101,9 @@ Note:
 
 
 ---?image=assets/images/binary-strings-black2.jpg
-@title[End of Lab setup Section]
+@title[End of Pin VS Section]
 <br><br><br><br><br>
-## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End of Lab setup</span>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Pin  VS Command Prompt</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 
@@ -216,6 +216,23 @@ Note:
 - invoke `$ edksetup.bat`
 - change MYTOOLS to VS2013x86
 - `$ Build -D BUILD_NEW_SHELL`
+
+
+---
+@title[Possible Build Errors]
+### <p align="right"><span class="gold" >Possible Build Errors</span><br></span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" >1. If you get a BUILD Error:  Error “`C:/Program `“ not found</span></p>
+<ul style="line-height:0.8;">
+  <li><span style="font-size:0.8em" >First check that you have opened Visual Studio and installed the “C++”   </span> </li>
+  <li><span style="font-size:0.8em" >Open Visual Studio and create a “C++” project </span> </li>
+  <li><span style="font-size:0.8em" > (This will take some time to install)</span> </li>
+</ul>  
+<p style="line-height:80%"><span style="font-size:0.9em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre=""> here</a> </span> </p>
+<p style="line-height:80%"><span style="font-size:0.9em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre=""> here</a>  </span> </p>
+
+
+Note:
+
 
 
 ---?image=/assets/images/slides/Slide19.JPG
@@ -750,13 +767,88 @@ Copyright (c) 2018, Intel Corporation. All rights reserved.
 **/
 
 ```
+
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Backup Section]
+<br><br><br><br><br>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Back up</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
 ---  
-@title[Backup]
+@title[Build Errors]
 <br>
 <br>
 <br>
 <br>
-##### <p align="center"<span class="gold"   >Backup </span></p><br>
+##### <p align="center"<span class="gold"   >Build Errors</span></p><br>
+
+
+---
+@title[Build Error- RC.exe ]
+<p align="right"><span class="gold" ><b>Build Error- RC.exe </b></span></p>
+<span style="font-size:0.9em" >Error Message:</span>
+
+```
+	"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" /Foc:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\HelloWorldhii.lib c:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\HelloWorldhii.rc
+'c:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+ 
+NMAKE : fatal error U1077: '"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe' : return code '0x1'
+Stop.
+```
+<p style="line-height:90%"><span style="font-size:0.9em" >Find where the RC.EXE is located on your VS Installation:  </span></p>
+
+<p style="line-height:90%"><span style="font-size:0.9em" >Example (VS 2013):  The RC.exe is located on this machine: <br>
+`C:\Program Files (x86)\Windows Kits\8.1\bin\x64` </span></p>
+<span style="font-size:0.9em" >Edit `Conf/tools_def.txt` </span>
+
+Note:
+
+
++++
+@title[Build Error- RC.exe 02]
+<p align="right"><span class="gold" ><b>Build Error- RC.exe Cont...</b></span></p>
+
+<span style="font-size:0.9em" >Edit `Conf/tools_def.txt` </span><br>
+<p style="line-height:90%"><span style="font-size:0.9em" >Search for your installation of Visual Studio (2013 or 2015)</span></p>
+<p style="line-height:90%"><span style="font-size:0.9em" >Update according to the path for where the RC.EXE is found </span></p>
+
+```
+# Microsoft Visual Studio 2013 Professional Edition
+DEFINE WINSDK8_BIN       = c:\Program Files\Windows Kits\8.1\bin\x86\
+DEFINE WINSDK8x86_BIN    = c:\Program Files (x86)\Windows Kits\8.1\bin\x64
+ 
+# Microsoft Visual Studio 2015 Professional Edition
+DEFINE WINSDK81_BIN       = c:\Program Files\Windows Kits\8.1\bin\x86\
+DEFINE WINSDK81x86_BIN    = c:\Program Files (x86)\Windows Kits\8.1\bin\x64
+
+```
+
+
+Note:
+---
+@title[Build Error- C1041 ]
+<p align="right"><span class="gold" ><b>Build Error: fatal error C1041: </b></span></p>
+<p style="line-height:90%"><span style="font-size:0.9em" >Build Error from fatal error C1041: cannot open program database</span></p>
+
+<p style="line-height:90%"><span style="font-size:0.9em" >This Error is usually because the location you are building is being shared by another application in Windows.  Example: Syncplicity may cause this</span></p>
+
+<span style="font-size:0.9em" >Error Message:</span>
+
+```
+k:\fw\edk2\MdePkg\Library\BaseLib\LinkedList.c : fatal error C1041: cannot open program 
+database 
+'k:\fw\edk2\build\nt32ia32\debug_vs2013x86\ia32\mdepkg\library\baselib\baselib\vc120.pdb'; if 
+multiple CL.EXE write to the same .PDB file, please use /FS
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 
+12.0\Vc\bin\cl.exe"' : return code '0x2'
+Stop.
+
+```
+
+<p style="line-height:90%"><span style="font-size:0.9em" ><b>Solution:</b>  Try using a Workspace that is not shared
+</span></p>
 
 
 ---?image=/assets/images/slides/Slide66.JPG
