@@ -806,7 +806,7 @@ Stop.
 <p style="line-height:90%"><span style="font-size:0.9em" >Find where the RC.EXE is located on your VS Installation:  </span></p>
 
 <p style="line-height:90%"><span style="font-size:0.9em" >Example (VS 2013):  The RC.exe is located on this machine: <br>
-`C:\Program Files (x86)\Windows Kits\8.1\bin\x64` </span></p>
+<span style="font-size:0.5em" >`C:\Program Files (x86)\Windows Kits\8.1\bin\x64` </span></span></p>
 <span style="font-size:0.9em" >Edit `Conf/tools_def.txt` </span>
 
 Note:
