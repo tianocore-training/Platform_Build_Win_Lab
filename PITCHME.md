@@ -789,7 +789,7 @@ Copyright (c) 2018, Intel Corporation. All rights reserved.
 <p align="right"><span class="gold" ><b>Build Error- RC.exe </b></span></p>
 <span style="font-size:0.9em" >Because RC.Exe is not found, Error Message:</span>
 
-
+```
 ```
 	"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" 
 /Foc:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT
@@ -802,6 +802,7 @@ operable program or batch file.
 NMAKE : fatal error U1077: '"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe' : return code '0x1'
 Stop.
 
+```
 ```
 
 <p style="line-height:90%"><span style="font-size:0.9em" >Find where the RC.EXE is located on your VS Installation:  </span></p>
