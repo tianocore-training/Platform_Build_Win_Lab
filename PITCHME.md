@@ -787,10 +787,10 @@ Copyright (c) 2018, Intel Corporation. All rights reserved.
 ---
 @title[Build Error- RC.exe ]
 <p align="right"><span class="gold" ><b>Build Error- RC.exe </b></span></p>
-<span style="font-size:0.9em" >Because RC.Exe is not found, Error Message:</span><br>
+<p style="line-height:90%"><span style="font-size:0.9em" >Because RC.Exe is not found, Error Message:</span></p>
 
 ```
-	"c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" 
+   "c:\Program Files (x86)\Windows Kits\8.0\bin\x64\rc.exe" 
 /Foc:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT
 \HelloWorldhii.lib 
 c:\edkii.svn\Build\NT32IA32\DEBUG_VS2013x86\IA32\MdeModulePkg\Application\HelloWorld\HelloWorld\OUTPUT\He
