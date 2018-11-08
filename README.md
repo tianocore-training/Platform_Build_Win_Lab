@@ -31,5 +31,5 @@
 # Platform_Build_Win_Lab
 Build EDK II Platform with Windows and Visual Studio (Nt32 or MinnowBoard MAX)
 
-To see the Slides goto https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/
 

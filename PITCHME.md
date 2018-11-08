@@ -47,9 +47,9 @@ Note:
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar  </span><br><br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
- @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
+ @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
+ @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
   
 
 
@@ -154,11 +154,11 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 ---
 @title[Download Lab_Material_FW -getting the Source ]
 ### <p align="right"><span class="gold" >Download Lab Material</span><br></span></p>
-<span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/Laurie0131/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
+<span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the Lab_Material_FW<span>
 ```
-$ git clone https://github.com/Laurie0131/Lab_Material_FW.git
+$ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 ```
 <span style="font-size:0.9em" >Directory Lab_Material_FW will be created</span>
 ```
@@ -420,11 +420,11 @@ Note:
 ---
 @title[Download MinnowBoard MAX Lab Source]
 ### <p align="right"><span class="gold" >Download MAX Lab Source</span></p>
-<span style="font-size:0.9em" >Download the PlatformBuildLab_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/Laurie0131/PlatformBuildLab_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
+<span style="font-size:0.9em" >Download the PlatformBuildLab_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/PlatformBuildLab_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the PlatformBuildLab_FW<span>
 ```
-$ git clone https://github.com/Laurie0131/PlatformBuildLab_FW.git
+$ git clone https://github.com/tianocore-training/PlatformBuildLab_FW.git
 ```
 <span style="font-size:0.9em" >Directory PlatformBuildLab_FW will be created</span>
 ```
@@ -506,7 +506,7 @@ Slide says it all
 ---?image=/assets/images/slides/Slide41.JPG
 @title[Open a VS Command Prompt]
 ### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
-<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
+<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
 
 
 Note:
@@ -717,9 +717,9 @@ Note:
 ##### <p align="center"<span class="gold"   >Summary </span></p><br>
 
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar  </span><br><br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
- @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
+ @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
+ @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
  
 
 ---?image=assets/images/gitpitch-audience.jpg
