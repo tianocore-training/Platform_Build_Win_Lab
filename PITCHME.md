@@ -459,11 +459,14 @@ $ git clone https://github.com/tianocore-training/PlatformBuildLab_FW.git
        - FTDI-Driver		                    - Serial / USB cable 
        - Max                                    - Minnowboard Max Source 
        - MinnowBoard.MAX.FirmwareUpdateX64.efi  - UEFI App to flash
-	   - TeraTerm			                    - Terminal app
+       - TeraTerm                               - Terminal app
 	   
 	   . . .
 ```
 
+Note:
+ 
+ 
 ---?image=/assets/images/slides/Slide36.JPG
 @title[MinnowBoard MAX Lab Setup]
 ### <p align="right"><span class="gold" >MinnowBoard MAX Lab Setup</span></p>
