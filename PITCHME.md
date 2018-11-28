@@ -657,7 +657,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
-### <p align="right"><span class="gold" >Flasing the New BIOS</span></p>
+### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
 1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
   - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
