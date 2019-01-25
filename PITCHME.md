@@ -60,42 +60,111 @@ Note:
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pin the Visual Studio Command prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar</span>
 
 
----?image=/assets/images/slides/Slide4.JPG
+---?image=/assets/images/slides2/Slide4.JPG
 @title[Pin VS CMD Prompt]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
+@snap[north-east span-25 ]
+<br>
+<br>
+<p style="line-height:40%" align="center">@fa[windows gp-bullet-cyan]<BR><span style="font-size:0.450em;  " >Windows 10 </span></p>
+<br>
+@snapend
+
+@snap[north-east span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
+<ol style="line-height:0.8;">
+ <li><span style="font-size:0.80em;  " >Using the Start menu in Windows 10, Left Click on "Windows Key" Lower Left @fa[windows gp-bullet-cyan]</span></li>
+ <li><span style="font-size:0.80em;  " >Scroll down from the scroll bar on the right until "Visual Studio 201@color[#e49436](<i>n</i>)" </span></li>
+ <li><span style="font-size:0.80em;  " >Left Click "Visual Studio 201@color[#e49436](<i>n</i>)"</span></li>
+</ol>
+<br>
+@snapend
+
+
 Note:
 
 
 
----?image=/assets/images/slides/Slide5.JPG
+---?image=/assets/images/slides2/Slide5.JPG
 @title[Pin VS CMD Prompt 02]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
+@snap[north-east span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >4. Left Click <b>"Visual Studio Tools"</b> </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >This will open another Windows file explorer window <br></span><span style="font-size:0.60em;  " > Note: <i>VS 2013 example, other version of VS maybe different</i>  </span></p>
+
+<br>
+@snapend
+
 
 Note:
 
 
 
----?image=/assets/images/slides/Slide6.JPG
+---?image=/assets/images/slides2/Slide6.JPG
 @title[Pin VS CMD Prompt 03]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
+@snap[north-east span-50 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >5. Select <b>"Developer Command Prompt for VS201<i>n</i>"</b> </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >6. Right Click to open Windows dialog box </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " ><font color="yellow">Do not use any of the other<br> ".. Command Prompts" </font></span></p>
 
+<br>
+@snapend
 Note:
 
 
 
----?image=/assets/images/slides/Slide7.JPG
+---?image=/assets/images/slides2/Slide7.JPG
 @title[Pin VS CMD Prompt 04]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
+@snap[north-east span-40 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >7. Left Click  on <br>&nbsp;&nbsp;&nbsp;"Pin to to taskbar" </span></p>
+<br>
+@snapend
+
+
 Note:
 
 
 
----?image=/assets/images/slides/Slide8.JPG
+---?image=/assets/images/slides2/Slide8.JPG
 @title[Pin VS CMD Prompt 05]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
+@snap[north-east span-50 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >8. Open the VS Command Prompt </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+All Windows Labs use this short-cut to Build Edk II platforms and projects using Windows Visual Studio :<br>
+2010 / 2012 / 2013 / 2015 or 2017</span></p>
+@snapend
 Note:
 
 
@@ -198,18 +267,48 @@ $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 
 Note:
 
----?image=/assets/images/slides/Slide14.JPG
+---?image=/assets/images/slides2/Slide14.JPG
 @title[Build Nt32 Edk2 -getting the Source ]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Extract the Source</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >1. Extract the Downloaded `Lab_Material_FW-master.zip` to `C:\` </span></p>
+<br>
+@snapend
+
+
+
+
+
 
 Note:
 Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory FW )
 
----?image=/assets/images/slides/Slide15.JPG
+---?image=/assets/images/slides2/Slide15.JPG
 @title[Build Nt32 Edk2 -getting the Source 02]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">– Copy `edk2`</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+2. Open a VS command prompt <br>
+3. Create a working space directory "FW" <br>&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.50em;"> 
+&nbsp;&nbsp;C:\&gt; mkdir FW&nbsp;&nbsp;</span></font><br>
+4. From the downloaded "`Lab_Material_FW`" folder, <b>copy</b>&nbsp;and &nbsp;<b>paste</b> folder &nbsp;"`...\edk2`"&nbsp; to &nbsp;`C:/FW`
+</span></p>
+<br>
+@snapend
 
 
 Note:
@@ -218,11 +317,24 @@ Note:
    - `C:\> mkdir FW`
 - From the downloaded Lab_Material_FW folder, copy and paste folder “`..\edk2`” to `C:/FW`
 
----?image=/assets/images/slides/Slide16.JPG
+---?image=/assets/images/slides2/Slide16.JPG
 @title[Build Nt32 Edk2 -get Nasm]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
-<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Get Nasm</font></span></p>
 
+@snap[north-east span-50 ]
+<br>
+<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Get Nasm</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Copy the  `Nasm` directory to `C:\`
+</span></p>
+<br>
+@snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Build Nt32 sub Section]
@@ -231,10 +343,51 @@ Note:
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
 
 
----?image=/assets/images/slides/Slide18.JPG
+---?image=/assets/images/slides2/Slide18.JPG
 @title[Build Nt32 Edk2 -update target.txt]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+
+
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Update Target.txt</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
+Invoke `Edksetup.bat`
+</span></p>
+<pre>
+```
+
+  C:\> cd FW/edk2
+  C:\FW\edk2> edksetup.bat
+
+```
+</pre>
+
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
+&lpar;change `TOOL_CHAIN_TAG`&rpar; &nbsp;&nbsp;`Notepad Conf/target.txt`</span></p>
+<br>
+@snapend
+
+@snap[south-west span-100 ]
+<p style="line-height:90%" align="left"><span style="font-size:0.80em;  " >
+Save and Exit <br>
+Build Nt32Pkg
+</span></p>
+<pre>
+```
+
+  C:\> cd FW/edk2
+  C:\FW\edk2> build -D BUILD_NEW_SHELL
+
+```
+</pre>
+@snapend
+
 
 Note:
 - `$ Cd C:/fw/edk2`
@@ -263,15 +416,27 @@ Note:
 ---?image=/assets/images/slides/Slide19.JPG
 @title[Build Nt32 Edk2 -build inside VS Prompt]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Inside VS Prompt</font></span></p>
-
+@snapend
 Note:
 - 
 
 
----?image=/assets/images/slides/Slide20.JPG
+---?image=/assets/images/slides2/Slide20.JPG
 @title[Build Nt32 Edk2 -invoke Nt32]
 ### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span></p>
+@snap[north-west span-45 ]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em" >From the command prompt<br><br></span>
+&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.55em; ">
+&nbsp;&nbsp;C:\FW\edk2&gt;  Build Run &nbsp;&nbsp;</span></font></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.6em" > Notice 2 "UGA Window n" opened </span></p>
+@snapend
+
 
 
 Note:
@@ -289,10 +454,14 @@ Note:
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab 2: Platform HW Setup</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup hardware for MinnowBoard Max/Turbot </span>
 
----?image=/assets/images/slides/Slide23.JPG
+---?image=/assets/images/slides2/Slide23.JPG
 @title[MAX/Turbot HW]
 ### <p align="right"><span class="gold" >EDK II Platform (MinnowBoard MAX/Turbot)</span></p>
-
+@snap[south-west span-45 ]
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
+<br>
+@snapend
 Note:
 
 This lab shows the build process for an actual platform – Minnowboard.org
@@ -300,10 +469,14 @@ This lab shows the build process for an actual platform – Minnowboard.org
 - Using Tianocore source
 - Open source EDK II plus open source binary obj. packages
 
----?image=/assets/images/slides/Slide24.JPG
+---?image=/assets/images/slides2/Slide24.JPG
 @title[Workshop Lab Hardware]
 ### <p align="right"><span class="gold" >MinnowBoard  MAX Workshop Lab Hardware</span></p>
-
+@snap[south span-100 ]
+<br>
+<p style="line-height:80%" ><span style="background-color: #FFFFFF; font-size:0.60em; "> <font color="red">&nbsp;<b>**Warning</b> do not use any other power supply than 5V or the board will Fry&nbsp;&nbsp;</font></span></p>
+<br>
+@snapend
 Note:
 
 **Warning do not use any other power supply than 5V or the board will Fry
@@ -324,10 +497,28 @@ Note:
 </div>
 Note:
 
----?image=/assets/images/slides/Slide26.JPG
+---?image=/assets/images/slides2/Slide26.JPG
 @title[Setup MinnowBoard Max Test System]
-### <p align="right"><span class="gold" >Setup MinnowBoard Max Test<br>System</span></p>
+<p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test System</b>)</span></p>
+@snap[north-west span-60 ]
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em"><b>Hardware:</b></span></p>
+<ul style="list-style-type:none; line-height:0.5;">
+  <li><span style="font-size:0.5em">- System Under Test (SUT) - MinnowBoard Max  </span>  </li>
+  <li><span style="font-size:0.5em">- USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
+  <li><span style="font-size:0.5em">- 5V power supply </span>  </li>
+</ul>
 
+
+<p style="line-height:50%"><span style="font-size:0.6em">
+Connect the USB w/ 6 pin header to SUT (MAX) <br><br>
+Connect the USB Type A connector to Host (Laptop) <br><br>
+On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel <br><br>
+Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-gold ]   with a warning icon next to it.  <br><br>
+You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-gold ]   warning under "<b>Other devices</b>" 
+</span> </p>
+@snapend
 
 Note:
 
@@ -348,10 +539,34 @@ Note:
 - You may already have this driver installed if you do not see a  !  warning under “Other devices”
 
 
----?image=/assets/images/slides/Slide27.JPG
+---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
-### <p align="right"><span class="gold" >Setup COM port on Host</span></p>
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br> &bull; Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b></span></p>
 
+@snap[north-west span-75 ]
+<br>
+<br>
+<br>
+<p style="line-height:40%"><span style="font-size:0.6em">
+ &bull; Select "Browse my computer for driver software" <br><br>
+ &bull; Click the <b>Browse</b>  button – Click @fa[check-square gp-bullet-white] on "Include subfolders"<br><br>
+ &bull; Browse to the location of the folder for the FTDI driver<br><br>
+ &bull; Click on the folder and press <b>OK</b>
+@snapend
+
+
+@snap[south-west span-30 ]
+<p style="line-height:50%"><span style="font-size:0.6em">
+&bull; Press <b>Next</b><br>
+&nbsp;&nbsp;Driver will be installed
+</span> </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+@snapend
 
 Note:
 - Right click yellow   !  and select "Update Driver Software“ from the Device Manager menu 
@@ -364,10 +579,32 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide28.JPG
+---?image=/assets/images/slides2/Slide28.JPG
 @title[Setup TeraTerm]
-### <p align="right"><span class="gold" >Setup TeraTerm</span></p>
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup TeraTerm</b>)</span></p>
+@snap[north-west span-35 ]
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em">
+Unzip and Install TeraTerm<br><br>
+Open TeraTerm Software<br><br>
+Select the serial port assigned
+</span></p>
+@snapend
 
+
+@snap[south-east span-55 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em">
+Go to <b>Setup &minus;&gt; Serial Port</b> and set the following:<br>
+  &nbsp;&nbsp;&bull; Baud: 115200<br>
+  &nbsp;&nbsp;&bull; Parity: None<br>
+  &nbsp;&nbsp;&bull; Data Bits: 8<br>
+  &nbsp;&nbsp;&bull; Stop Bits: 1<br>
+  &nbsp;&nbsp;&bull; Flow Control: Xon/Xoff
+</span></p>
+@snapend
 
 Note:
 - Unzip and Install TeraTerm
@@ -382,10 +619,19 @@ Note:
   - Flow Control: Xon/Xoff
 
 
----?image=/assets/images/slides/Slide29.JPG
+---?image=/assets/images/slides2/Slide29.JPG
 @title[Power on MinnowBoard MAX]
-### <p align="right"><span class="gold" >Power on MinnowBoard MAX</span></p>
-
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Power on MinnowBoard MAX</b>)</span></p>
+@snap[north-west span-100 ]
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:0.8em">
+Connect the Power supply cable to the MinnowBoard  MAX
+<br>
+<br>
+MinnowBoard MAX should boot to the UEFI Shell in the TeraTerm window.
+</span></p>
+@snapend
 
 Note:
 - Connect the Power supply cable to the MinnowBoard  MAX
@@ -406,20 +652,23 @@ Note:
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 
-
----?image=/assets/images/slides/Slide32.JPG
-@title[MinnowBoard MAX/ Turbot Platform]
+---?image=/assets/images/slides2/Slide23.JPG
+@title[MAX/Turbot HW]
 ### <p align="right"><span class="gold" >EDK II Platform (MinnowBoard MAX/Turbot)</span></p>
-
-
+@snap[south-west span-45 ]
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
+<br>
+@snapend
 Note:
+
 -  Intel® Atom processor E3800 Series  (Formerly Bay Trail-I)
 
 
 ---?image=/assets/images/slides/Slide33.JPG
 @title[MinnowBoard MAX/ Turbot Platform]
 <br>
-<p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
+<p align="left"><span class="gold" ><b>Where to get Open Source<BR> MinnowBoard Max</b></span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="yellow">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
   - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
@@ -432,7 +681,7 @@ Note:
 ---?image=/assets/images/slides/Slide34.JPG
 @title[MinnowBoard MAX/ Turbot Platform]
 <br>
-<p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
+<p align="left"><span class="gold" ><b>Where to get Open Source<BR> MinnowBoard Max</b></span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="white">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
   - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
@@ -466,11 +715,51 @@ $ git clone https://github.com/tianocore-training/PlatformBuildLab_FW.git
 
 Note:
  
- 
----?image=/assets/images/slides/Slide36.JPG
+---?image=/assets/images/slides2/Slide36.JPG
 @title[MinnowBoard MAX Lab Setup]
 ### <p align="right"><span class="gold" >MinnowBoard MAX Lab Setup</span></p>
+@snap[north-west span-70 ]
+<br>
+<br>
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em">
+@color[#87E2A9](Previous Lab Setup Requirements)<br></span>
+<span style="font-size:0.6em">
+NASM<br>
+&nbsp;Copy ... `Lab_Material_FW\FW\Nasm` to `C:\` <br><br><br><br>
+</span>
+<span style="font-size:0.8em">
+@color[#87E2A9](Additional Lab Setup -)</span><br>
+<span style="font-size:0.6em">&nbsp;&nbsp;&nbsp;
+@color[#87E2A9]( `PlatformLab_FW/FW/PlatformBuildLab`) 
+</span></p>
 
+@snapend
+
+
+@snap[south-west span-25 ]
+<p style="line-height:40%" align="left"><span style="font-size:0.55em">
+<b>Directories:</b><br>&nbsp;&nbsp;
+&bull;Max<br>&nbsp;&nbsp;
+&bull;asl<br>&nbsp;&nbsp;
+&bull;FTDI-Driver<br>&nbsp;&nbsp;
+&bull;Nasm<br>&nbsp;&nbsp;
+&bull;TeraTerm
+</snap></p>
+<br>
+@snapend
+
+@snap[south-east span-80 ]
+<p style="line-height:40%" align="left"><span style="font-size:0.55em"><font color="yellow">
+<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;MinnowBoard Max Project source code<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Iasl Assembler C:/asl directory<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Driver for Serial/USB Uart cable<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Nasm Assembly compiler- Same as previous lab<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;TeraTerm application
+</font></snap></p>
+<br>
+@snapend
 
 Note:
 - NASM
@@ -479,9 +768,26 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide37.JPG
+---?image=/assets/images/slides2/Slide37.JPG
 @title[Preparing to Build]
 ### <p align="right"><span class="gold" >Preparing to Build</span></p>
+<p style="line-height:70%"><span style="font-size:0.8em">
+Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` from Download or zip
+</span></p>
+
+@snap[north-west span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em">
+@size[1.5em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br><br>
+@size[1.5em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
+</span></p>
+
+@snapend
 
 
 Note:
@@ -490,9 +796,29 @@ Copy \Nasm Folder to C:\
 Copy \asl Folder to C:\
 </pre>
 
----?image=/assets/images/slides/Slide38.JPG
+---?image=/assets/images/slides2/Slide38.JPG
 @title[Get the Minnowboard Max Source]
 ### <p align="right"><span class="gold" >Copy Minnowboard Max Source</span></p>
+@snap[north-west span-20 ]
+<br>
+<br>
+<p style="line-height:40%"><span style="font-size:0.8em"><br>@size[1.5em](<font color="#87E2A9"> &#10104;</font>)</span></p>
+@snapend
+
+@snap[north-east span-95 ]
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em">
+Open a VS Command Prompt<br>
+Create a working space source directory under the home directory<br></span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> 
+C:\&gt; mkdir FW</span></font></span><br><br>
+<span style="font-size:0.7em">
+From the `FW/PlatformBuildLab` folder, copy and paste folder "`..FW/Max`" to `C:/FW/Max`
+</span></p>
+
+@snapend
+
 
 Note:
 - Open a VS prompt  
@@ -515,14 +841,14 @@ Note:
 @title[Steps to Build & Install Firmware]
 <br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
-<ol>
-  <li><span style="font-size:0.9em">Open VS Command prompt </span></li>
-  <li><span style="font-size:0.9em"> Cd to  project directory :    `C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
-  <li><span style="font-size:0.9em">Invoke the build process</span></li>
-  <li><span style="font-size:0.9em"> Locate build output (.BIN file for BIOS image)</span></li>
-  <li><span style="font-size:0.9em"> Flash binary image onto the platform</span></li>
-  <li><span style="font-size:0.9em"> Reset and boot new firmware to UEFI Shell</span></li>
-</ol>
+<ul style="list-style-type:none; line-height:0.9;">
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp; Open VS Command prompt </span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em">`C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10106;</font>)&nbsp; Flash binary image onto the platform</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10107;</font>)&nbsp; Reset and verify new firmware</span></li>
+</ul>
 <br>
 <br>
 <span style="font-size:0.9em"><font color="yellow"><i><b>Next slides will follow the above steps</b></i></font></span>
@@ -532,89 +858,176 @@ Note:
 
 Slide says it all
  
----?image=/assets/images/slides/Slide41.JPG
+---?image=/assets/images/slides2/Slide41.JPG
 @title[Open a VS Command Prompt]
 ### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
-<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>
+@size[1.25em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt<span></p>
 
 
 Note:
 
+---
+@title[Platform Build Scripts]
+<p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Scripts</b>)</span></p>
 
----?image=/assets/images/slides/Slide42.JPG
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Build Scripts<br>&nbsp; </span></p>)
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platform have a bash or bat script file to pre or post process the EDK II build process</span></p>
+
+<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `Build_IFWI.bat or Build_IFWI.sh` <br></span>
+<span style="font-size:0.7em"><Example:<br>
+&nbsp;Build_IFWI  <br>
+&nbsp;&nbsp;&ndash; pre build processing <br>
+&nbsp;&nbsp;&ndash;  calls `vlv_bld` - a platform script to preform the EDK II `build` <br> 
+&nbsp;&nbsp;&ndash; determines date <br>
+&nbsp;&nbsp;&ndash; board ID<br>
+&nbsp;&nbsp;&ndash; post build stitching<br>
+</span></p>
+
+Note:
+
+For the platform edk II builds usually a script is called that will do pre and post build processing.  
+There is also this capability that is part of the .dsc but many developers have not taken advantage of this feature
+
+
+---?image=/assets/images/slides2/Slide42.JPG
 @title[Build Process for DEBUG]
 ### <p align="right"><span class="gold" >Build Process for DEBUG BIOS </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+From the VS command Prompt ... Enter:<br>
+@size[1.25em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+&nbsp;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
+<span style="font-size:0.8em">
+@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+&nbsp;Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></p>
 
 
 Note:
+
 - From the VS Command Prompt … ENTER:
+
 <pre>
 $ cd C:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg 
 $ Build_IFWI.bat /l MNW2 Debug
 </pre>
 
----?image=/assets/images/slides/Slide43.JPG
-<!-- .slide: data-transition="none" -->		 
+---
 @title[Examine Command Line & Build Parameters]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Examine Build Parameters</b>)</span></p>
+
+@snap[north-west span-100 ]
+<br>
+<br>
+@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.65em; font-family:Consolas; " >&nbsp;&nbsp;build<br><br><br>&nbsp;&nbsp;</span></p>)
+@snapend
 
 
-+++?image=/assets/images/slides/Slide44.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 02]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+@snap[north-east span-85  fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.60em; font-family:Consolas; " >
+<font color="#75deFF">-D SYMBOLIC_DEBUG=TRUE&nbsp;&nbsp;  -D LOGGING=TRUE<br>
+ . . . -D <i> Option &lpar;n&rpar;</i> </font>
+</span></p>
+@snapend
 
-Note:
+
+@snap[north-east span-30  fragment]
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
+@box[bg-white text-black rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</b></span></p>)
+@snapend
+
+
+@snap[north-west span-100 fragment ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9"><br><br><b>Properties from `Conf\Target.txt`</b></font></span></p>
+<table id="recTable">
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](DEBUG)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Build Mode</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](IA32 X64)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>CPU Architecture</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TOOL_CHAIN_TAG</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](VS2013x86)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>VS Tool Chain</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](Vlv2TbltDevicePkg /PlatformPkgX64)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Platform DSC file</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>MAX&lowbar;CONCURRENT&lowbar; THREAD_NUMBER</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](1)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025" width="35%"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Thread Count</b></span></p></td>
+	</tr>
+</table>
+
  
-+++?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 03]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+@snapend
 
-Note:
-+++?image=/assets/images/slides/Slide46.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 04]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+---
+@title[Examine Platform Parameters]
+<p align="right"><span class="gold" >@size[1.1em](<b>Platform Build and PCD Parameters</b>)</span></p>
 
-Note:
-+++?image=/assets/images/slides/Slide47.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 05]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Parameters<br>&nbsp; </span></p>)
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD and build switches</span></p>
 
-Note:
-+++?image=/assets/images/slides/Slide48.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 06]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `PlatformPkgConfig.dsc` <br>Example:</span></p>
 
-Note:
+```xml
+ #
+ # TRUE is ENABLE. FASLE is DISABLE.
+ #
+  //  . . .
+ DEFINE SECURE_BOOT_ENABLE = TRUE
+ DEFINE USER_IDENTIFICATION_ENABLE = FALSE
+ DEFINE VARIABLE_INFO_ENABLE = FALSE
+ DEFINE S3_ENABLE = TRUE
+ DEFINE CAPSULE_ENABLE = TRUE
+ DEFINE CAPSULE_RESET_ENABLE = TRUE
+  // . . .
 
-+++?image=/assets/images/slides/Slide49.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 07]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+```
 
 Note:
 
-+++?image=/assets/images/slides/Slide50.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 08]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+many will have "ifdef" statements in the major .dsc file in order to enable a feature or not
 
-Note:
 
----?image=/assets/images/slides/Slide51.JPG
+---?image=/assets/images/slides2/Slide51.JPG
 @title[Build Process for Release]
 ### <p align="right"><span class="gold" >Build Process for Release</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+From the VS command Prompt ... Enter:<br>
+</span><br>
+<span style="font-size:0.8em">
+@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+&nbsp;Build_IFWI.bat /l MNW2 Release&nbsp;&nbsp;</span></font></p>
+
+
+@snap[north-east span-30  fragment]
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
+@box[bg-white text-black rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;Note MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;<font color="blue">Set to FALSE</font><br>&nbsp;&nbsp;</b></span></p>)
+@snapend
+
+
 
 Note:
 From VS Prompt enter:
@@ -626,10 +1039,11 @@ $ Build_IFWI.bat /l MNW2 Release
 ---
 @title[DEBUG & RELEASE Differences]
 ### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-@box[bg-purple text-white rounded fragment](<span style="font-size:0.95em" >Slower boot because the time it takes to display debug info </span>)
-@box[bg-green text-white rounded fragment](<span style="font-size:0.95em" >Larger image because of debug code & embedded info </span>)
-@box[bg-orange text-white rounded fragment](<span style="font-size:0.95em" >Uses the serial port for debug string output</span>)
-@box[bg-blue text-white rounded fragment](<span style="font-size:0.95em" >Contains detailed debug strings that show the boot progress and various `ASSERT` / `TRACE` errors</span>)
+
+@box[bg-purple-pp text-white rounded my-box-pad2 fragment](<p style="line-height:70%"><span style="font-size:0.9em" >Slower boot because the time it takes to display debug info <br>&nbsp; </span></p>)
+@box[bg-green-pp text-white rounded my-box-pad2 fragment](<p style="line-height:70%"><span style="font-size:0.9em" >Larger image because of debug code & embedded info<br>&nbsp;  </span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  fragment](<p style="line-height:70%"><span style="font-size:0.9em" >Uses the serial port for debug string output<br>&nbsp; </span></p>)
+@box[bg-royal text-white rounded my-box-pad2  fragment](<p style="line-height:80%"><span style="font-size:0.9em" >Contains detailed debug strings that show the<br> boot progress and various `ASSERT` / `TRACE` errors<br>&nbsp; </span></p>)
 
  
 Note: 
@@ -647,17 +1061,34 @@ Note:
 - Smaller image than DEBUG
 - Faster boot than DEBUG
 
----?image=/assets/images/slides/Slide57.JPG
+---?image=/assets/images/slides2/Slide57.JPG
 @title[Build Process Completed]
 ### <p align="right"><span class="gold" >Build Process Completed</span></p>
+<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10105;</font>)&nbsp;&nbsp;Locate the build .BIN image</span>
 
+@snap[south-west span-100  ]
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" >
+
+The platform build script post build process will stitch the multiple firmware volumes generated by the EDK II build process into the final <b> .BIN</b> image.<br><br>
+The script displays the location of the final <b>.BIN </b> file<br><br>
+</span></p>
+@snapend
 
 Note:
 - The EDK II build generates multiple firmware volumes, which are combined in the .BIN image
+- typically the platform script will call a stitching process to combine all the images together in  post processing after the EDK II build
 
 ---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
+@snap[north-west span-100  ]
+<br>
+<br>
+<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10106;</font>)&nbsp;&nbsp;Flash the binary image</span>
+@snapend
+
+
+<br>
 1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
   - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
@@ -666,7 +1097,6 @@ Note:
 3. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy </span><span style="font-size:0.65em" >`MinnowBoard.MAX.FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb &nbsp;&nbsp;drive from `$.../FW/PlatformBuildLab`</span>
 4. <span style="font-size:0.85em" >&nbsp;&nbsp;Boot to UEFI Shell on Max and type "`FS0:`"</span>
 
- 
 Note:
 1.  Access Max Binary image file from build folder
   - `C:/fw/Max/Vlv2TbltDevicePkg/Stitch`
@@ -712,11 +1142,18 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 ---?image=/assets/images/slides/Slide57_1.JPG
 @title[Verify after Firmware Update]
 ### <p align="right"><span class="gold" >Verify after Firmware Update</span></p>
+@snap[north-west span-100  ]
+<br>
+<br>
+<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10107;</font>)&nbsp;&nbsp;Reboot and Verify</span>
+@snapend
  
+<br>
 - <span style="font-size:0.85em" >Verify that the Firmware was updated by checking the Date</span>
 - <span style="font-size:0.85em" >At the shell prompt type “exit”</span>
 - <span style="font-size:0.85em" >The EDK II front page will show the BIOS ID with Date/time stamp</span>
  
+
 Note:
 
 - Verify that the Firmware was updated by checking the Date
@@ -729,9 +1166,9 @@ Note:
 ##### <p align="center"<span class="gold"   >Summary </span></p><br>
 
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar  </span><br><br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
- @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
+ @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
+ @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
  
 
 ---?image=assets/images/gitpitch-audience.jpg
