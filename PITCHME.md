@@ -207,10 +207,7 @@ Note:
 
 ```
   C:\WS> git clone https://github.com/tianocore/edk2.git
-  C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
 
-  
-  C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
 ```
 
 <span style="font-size:0.7em" ><b>@color[yellow](NOTE:)</b> Lab Material will have a different “edk2” </span>
@@ -230,10 +227,7 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 
 - OPTIONAL - Download edk2 source tree using Git command prompt
 - C:\WS> git clone https://github.com/tianocore/edk2.git
-- C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
 
-- OPTIONAL - Build the tools
-- C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
 </pre>
 
 - NOTE: Lab Material will have a different “edk2”
@@ -251,7 +245,7 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 <span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the Lab_Material_FW<span>
-```
+```bash
 $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 ```
 <span style="font-size:0.9em" >Directory Lab_Material_FW will be created</span>
@@ -263,6 +257,7 @@ $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 	- edk2Linux 
 	- LabSampleCode 
 	- Nasm
+	
 ```
 
 Note:
@@ -336,6 +331,69 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 @snapend
 
+
+---
+@title[Build Nte32 Edk2 -install Python]
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+
+@snap[north-east span-50 ]
+<br>
+<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><font color="#e49436"><br>–Download and install Python<br> -Build `BaseTools`</font></span></p>
+@snapend
+
+@snap[north-west span-60 ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+ Download and install Python 3.7.x for Windows from: <br> https://www.python.org
+<br>
+<br>
+<br>
+Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
+</span></p>
+<pre lang="xml">
+```
+       C:\> cd FW/edk2
+  C:\FW\edk2> edksetup.bat Rebuild
+```
+</pre>
+
+<br>
+@snapend
+
+@snap[north-east span-45 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="https://www.python.org">
+![python_logo](assets/images/python-logo@2x.png)</a>
+
+@snapend
+
+
+@snap[east span-40 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.80em;  " ><br><br>
+@color[yellow](&#8678;)
+</span></p>
+@snapend
+
+@snap[south-west span-100 ]
+<p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
+@color[white](Building `BaseTools` only needs to be done once )
+</span></p>
+<br>
+@snapend
+
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Build Nt32 sub Section]
 <br><br><br><br><br>
@@ -355,19 +413,16 @@ Copy the  `Nasm` directory to `C:\`
 
 @snap[north-west span-100 ]
 <br>
+<br>
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
 Invoke `Edksetup.bat`
 </span></p>
-<pre>
+<pre lang="xml">
 ```
-
-  C:\> cd FW/edk2
   C:\FW\edk2> edksetup.bat
-
 ```
 </pre>
-
-<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+<p style="line-height:60%" align="left"><span style="font-size:0.80em;  " >
 Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
 &lpar;change `TOOL_CHAIN_TAG`&rpar; &nbsp;&nbsp;`Notepad Conf/target.txt`</span></p>
 <br>
@@ -376,12 +431,11 @@ Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br
 @snap[south-west span-100 ]
 <p style="line-height:90%" align="left"><span style="font-size:0.80em;  " >
 Save and Exit <br>
-Build Nt32Pkg
+<b>Build Nt32Pkg</b>
 </span></p>
-<pre>
+<pre lang="bash">
 ```
 
-  C:\> cd FW/edk2
   C:\FW\edk2> build -D BUILD_NEW_SHELL
 
 ```
@@ -389,9 +443,16 @@ Build Nt32Pkg
 @snapend
 
 
+@snap[south-east span-40 fragment ]
+<p style="line-height:10%" align="left"><span style="font-size:02.80em;  " ><br><br>
+@color[yellow](&#8678;)
+<br>&nbsp;
+</span></p>
+@snapend
+
 Note:
 - `$ Cd C:/fw/edk2`
-- invoke `$ edksetup.bat`
+- invoke `$ edksetup.bat Rebuild`
 - change MYTOOLS to VS2013x86
 - `$ Build -D BUILD_NEW_SHELL`
 
@@ -1176,6 +1237,23 @@ Note:
 <br>
 ![Questions](/assets/images/questions.JPG =10x) 
 
+---
+@title[return to main]
+<p align="center"><span class="gold"   >@size[1.2em](<b>Return to Main Training Page</b>)</span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="center"><span style="font-size:0.9em">Return to Training Table of contents for next presentation <a href="https://github.com/tianocore-training/Tianocore_Training_Contents/wiki#schedule--outline">link</a></span></p>
+
+@snap[north span-30 ]
+<br>
+<br>
+<br>
+<a href="https://github.com/tianocore-training/Tianocore_Training_Contents/wiki#schedule--outline">
+![trainingLogo](/assets/images/returnTrainingLogo.png)</a>
+@snapend
 
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Logo Slide]
@@ -1212,7 +1290,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY 
 OF SUCH DAMAGE.
 
-Copyright (c) 2018, Intel Corporation. All rights reserved.
+Copyright (c) 2019, Intel Corporation. All rights reserved.
 **/
 
 ```
